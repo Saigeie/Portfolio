@@ -1,0 +1,25 @@
+.plus {
+   position: fixed;
+   top: 40%;
+   left: 50.75%;
+}
+.plusInside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plusLine {
+    background: var(--p-p-fade);
+    width: 2rem;
+    height: 10rem;
+    border-radius: 50px;
+}
+
+.plusLine:first-child {
+    transform: rotate(45deg);
+}
+.plusLine:last-child {
+    box-shadow: 0px 0px 10px var(--gray);
+    transform: translateX(-37px) rotate(-45deg);
+}
+

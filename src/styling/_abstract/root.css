@@ -1,0 +1,36 @@
+@import url("https://use.typekit.net/pom8zfo.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    /* Colours */
+    --black: #131517;
+    --black-abstract: #28262e;
+    --gray: #323136;
+    --blue: #4b85fe;
+    --red: #950035;
+    --red-dark: #650124;
+    --purple: #9F5EAC; 
+    --pink: #c44e79;
+    --peach: #f09690;
+    --p-p-fade: linear-gradient(0deg, rgba(196,78,121,1) 0%, rgba(240,150,144,1) 100%);
+    --p-r-fade: linear-gradient(351deg, rgba(190,55,84,1) 0%, rgba(132,29,87,1) 100%);
+    --lb-db-fade: linear-gradient(351deg, rgba(137,194,217,1) 0%, rgba(1,58,99,1) 100%);
+    --r-lr-fade: linear-gradient(351deg, rgba(255,143,163,1) 0%, rgba(164,19,60,1) 100%);
+    /* https://cssgradient.io/ */
+   
+    /* Fonts */
+    --body-font: 'Open Sans', sans-serif;
+    --header-font: 'Degular', sans-serif;
+}
+
+a { 
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--black);
+}

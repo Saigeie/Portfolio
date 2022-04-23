@@ -1,0 +1,6 @@
+
+.aboutSection {
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+}
